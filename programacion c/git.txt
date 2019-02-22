@@ -1,0 +1,16 @@
+cd Desktop/ 
+ls -la 
+cd MIS_TP 
+echo "# prueba_clase8" >> README.md 
+
+
+git init 
+git add . 
+git commit -m "Primer commit" 
+git remote add origin https://github.com/USUARIO_GIT/REPOSITORIO.git 
+git push -u origin master 
+
+
+git add . 
+git commit -m "Segundo commit" 
+git push -u origin master
